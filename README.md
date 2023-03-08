@@ -4,12 +4,17 @@ Arduino + SSD1306 for Jonsbo N1
 This is remix of Jonsbo N1 case front panel. I removed I/O-ports and added SSD1306 OLED display which controlled from
 host-system via arduino nano and bash script.
 
-<img src="assets/img0.jpg"  width="400" height="300">
-<img src="assets/img1.jpg"  width="400" height="300">
-<img src="assets/img2.jpg"  width="400" height="300">
+Hardware you need
+-----------------
 
-Build
------
+* Jonsbo N1
+* Arduino Nano (or what you have)
+* SSD1306 OLED 0.91 display (128x32)
+
+[How to wire](https://thesolaruniverse.wordpress.com/2019/10/28/how-to-wire-and-run-a-128x32-oled-display-with-ssd1306-driver-with-an-arduino/)
+
+Build firmware
+--------------
 
 You need `platformio` to build project:
 
@@ -17,4 +22,10 @@ You need `platformio` to build project:
 pio run
 pio run -t upload
 ```
+
+Images
+------
+<img src="assets/img0.jpg"  width="400" height="300">
+<img src="assets/img1.jpg"  width="400" height="300">
+<img src="assets/img2.jpg"  width="400" height="300">
 
