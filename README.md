@@ -7,3 +7,14 @@ host-system via arduino nano and bash script.
 <img src="assets/img0.jpg"  width="400" height="300">
 <img src="assets/img1.jpg"  width="400" height="300">
 <img src="assets/img2.jpg"  width="400" height="300">
+
+Build
+-----
+
+You need `platformio` to build project:
+
+```bash
+pio run
+pio run -t upload
+```
+
